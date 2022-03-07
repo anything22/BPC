@@ -1,0 +1,64 @@
+body {
+  background: radial-gradient(white, #bebebe);
+}
+
+.about {
+  padding-top: 100px;
+  font-weight: bold;
+  font-size: 2pc;
+  text-align: center;
+  background: -webkit-linear-gradient(#5156da, #d154da);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.n-p {
+  padding-top: 100px;
+  font-weight: bold;
+  font-size: 1.5pc;
+  text-align: center;
+  background: -webkit-linear-gradient(#5156da, #d154da);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.future {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 200px;
+}
+.future a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  padding: 30px 40px;
+  background: linear-gradient(#5156da, #d154da);
+  border-radius: 5%;
+  color: white;
+  line-height: 2;
+  font-family: sans-serif;
+  margin-top: -189px;
+}
+@media (min-width: 767px) {
+  .future a {
+    display: none;
+  }
+}
+@media (min-width: 767px) {
+  .n-p {
+    display: none;
+  }
+}
+.computer {
+  padding-top: 100px;
+  font-weight: bold;
+  font-size: 2pc;
+  text-align: center;
+  background: -webkit-linear-gradient(#5156da, #d154da);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+@media (max-width: 767px) {
+  .computer {
+    display: none;
+  }
+}
+/* End About */
